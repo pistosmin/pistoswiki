@@ -1,25 +1,21 @@
 ---
-title: 안녕 pistoswiki — 첫 공개 노트
+title: 여는 글
 date: 2026-04-19
-description: pistoswiki — Karpathy LLM 위키를 옵시디언으로 이식한 개인 지식 시스템의 첫 공개 노트.
+description: Karpathy의 LLM wiki 패턴을 옵시디언 vault에 실체화한 개인 위키의 여는 글.
 tags:
   - meta
   - introduction
 draft: false
 ---
 
-# 안녕 pistoswiki — 첫 공개 노트
+# 여는 글
 
-이 노트는 pistoswiki 발행 파이프라인의 첫 검증용 글입니다.
+지식을 관리하는 방식은 사람마다 다르다. 에버노트, 노션, 그날그날 일지, 아예 정리하지 않고 머릿속에만 두는 방식까지. 내가 이번에 택한 건 옵시디언 vault와 Graphify 지식 그래프를 결합한 개인 위키다.
 
-## 이 시스템이 하려는 것
+시작은 Andrej Karpathy의 짧은 [gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 였다. 거기서 그는 "LLM wiki"라는 패턴을 제안한다. 사람이 원문을 읽고 소스를 던지면, LLM이 그걸 흡수해 기존 노트에 연결·갱신·정리하는 구조다. 검색과 요약을 매번 새로 재계산하는 대신 지식이 복리로 쌓이게 하자는 발상. 그게 묘하게 끌렸다.
 
-Andrej Karpathy가 gist에 쓴 LLM 위키 개념을, 제 옵시디언 vault에 이식했습니다. LLM은 큐레이터·링커 역할만 하고, 저는 글과 사고의 원천 역할을 합니다.
+그 개념을 내 방식으로 실체화한 결과가 이 사이트다. 원천은 로컬 옵시디언 vault에 두고, 공개해도 될 만한 부분만 따로 골라 Quartz 4로 정적 사이트를 빌드해 GitHub Pages에 올린다. LLM은 여기서 작가가 아니라 큐레이터 역할만 한다. 생성을 맡기면 환각이 그래프 전체에 퍼지니까.
 
-## 구조 한 장
+앞으로 이 공간에 쌓일 글은 대체로 세 가지다. LLM과 개인 지식 관리(PKM) 사이의 경계에서 떠오르는 생각, 프로젝트 진행 중 내린 의사결정의 기록, 그리고 읽은 글·논문·영상에 대한 짧은 메모. 형식은 긴 에세이보다 짧게 나눠 서로 연결되는 쪽을 지향한다.
 
-- 원천: `~/Obsidian Vault/pistoswiki/` (Google Drive 싱크)
-- 그래프: Graphify 산출물
-- 발행: Quartz 4 → GitHub Pages
-
-자세한 내용은 점점 채워질 예정입니다.
+깨지거나 어색한 부분이 보이면 언제든 알려주면 고맙겠다.
