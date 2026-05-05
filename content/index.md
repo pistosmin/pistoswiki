@@ -5,7 +5,7 @@ description: 개인 LLM 위키 - Karpathy의 LLM Wiki 개념 + Graphify v4를 �
 
 # pistoswiki
 
-**개인 LLM 위키**. Andrej Karpathy의 *LLM Wiki* 개념을 옵시디언 vault에 이식하고, Graphify v4 지식 그래프와 Quartz 4 정적 사이트 생성을 결합해 **장기 축적 + AI 위임**이 가능한 개인 지식 시스템으로 만들었습니다.
+**개인 LLM 위키**. Andrej Karpathy의 _LLM Wiki_ 개념을 옵시디언 vault에 이식하고, Graphify v4 지식 그래프와 Quartz 4 정적 사이트 생성을 결합해 **장기 축적 + AI 위임**이 가능한 개인 지식 시스템으로 만들었습니다.
 
 ## 특징
 
@@ -16,7 +16,21 @@ description: 개인 LLM 위키 - Karpathy의 LLM Wiki 개념 + Graphify v4를 �
 
 ## 읽을거리
 
-*(콘텐츠는 점점 채워질 예정)*
+### 2026-05-05
+
+- [Claude에서 Codex로 옮긴 개인 에이전트 작업 환경](codex-migration)
+- [사내 레거시 시스템 LLM 위키 워크벤치](company-llm-wiki-workbench)
+
+### 2026-04-19
+
+- [여는 글](hello-pistoswiki)
+- [pistoswiki](pistoswiki)
+- [Claude Code effort 레벨과 thinking 토큰](claude-code-effort-levels)
+- [querycreator](querycreator)
+- [h-chat-4cc](h-chat-4cc)
+- [gravity](gravity)
+- [ralph-internal-setup](ralph-internal-setup)
+- [면접 준비 자가 구축 — D-3 질주의 기록](interview-prep-learning-app)
 
 ---
 
